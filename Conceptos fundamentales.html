@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Conceptos fundamentales</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body id="color">
+   <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+     
+    <div class="container">
+        <a href="index.html" class="btn btn-secondary" role="button">Incio</a>
+        <a href="Quien es Alan.html" class="btn btn-secondary" role="button">Quien es Alan Kay?</a>
+        <a href="Inicios.html" class="btn btn-secondary" role="button">Inicios y Trabajo</a>
+        <ul class="navbar-nav">
+        
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle btn btn-secondary " href="#" id="navbardrop" data-toggle="dropdown"  role="button">
+             2 links
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="Trabajos recientes.html">Trabajo recientes</a>
+              <a class="dropdown-item" href="Programacion orientada a objetos.html">Programacion orientada a objetos</a>
+            </div>
+          </li>
+        </ul>
+        <a href="Desarrollo de Squeak y Croquet.html" class="btn btn-secondary" role="button">Desarrollo </a>
+        <a href="Portátil de 100 dólares.html" class="btn btn-secondary" role="button">Portátil de 100 dólares</a>
+        <a href="Premios y reconocimientos.html" class="btn btn-secondary" role="button">Premios </a>
+        <a href="Musica.html" class="btn btn-secondary" role="button">Musica</a>
+        <a href="Origen.html" class="btn btn-secondary" role="button">Origen</a>
+        <a href="Conceptos fundamentales.html" class="btn btn-secondary" role="button">Conceptos fundamentales</a>
+        <a href="Carracteristicas.html" class="btn btn-secondary" role="button">Características</a>
+        <a href="Material y consultas.html" class="btn btn-secondary" role="button">Material y consultas</a>
+       
+    </div>
+    
+</nav>
+<h1 id="centrado">Conceptos fundamentales</h1>
+<div id="container-fluid">
+    <div class="row">
+        <div class="col-md-4 ">
+            <h3 id="centrado">Clase</h3>
+            <p>Una clase es una especie de "plantilla" en la que se definen los atributos y métodos predeterminados de un tipo de objeto. Esta plantilla se crea para poder crear objetos fácilmente. Al método de crear nuevos objetos mediante la lectura y recuperación de los atributos y métodos de una clase se le conoce como instanciación.</p>
+
+        </div>
+        <div class="col-md-4">
+            <h3 id="centrado">Herencia</h3>
+            
+            <p>Por ejemplo, herencia de la clase C a la clase D, es la facilidad mediante la cual la clase D hereda en ella cada uno de los atributos y operaciones de C, como si esos atributos y operaciones hubiesen sido definidos por la misma D. Por lo tanto, puede usar los mismos métodos y variables registrados como "públicos" (public) en C. Los componentes registrados como "privados" (private) también se heredan pero se mantienen escondidos al programador y sólo pueden ser accedidos a través de otros métodos públicos. Para poder acceder a un atributo u operación de una clase en cualquiera de sus subclases pero mantenerla oculta para otras clases es necesario registrar los componentes como "protegidos" (protected), de esta manera serán visibles en C y en D pero no en otras clases.</p>
+        </div>
+        <div class="col-md-4">
+            <h3 id="centrado">Objeto</h3>
+            
+            <p>Instancia de una clase. Entidad provista de un conjunto de propiedades o atributos (datos) y de comportamiento o funcionalidad (métodos), los mismos que consecuentemente reaccionan a eventos. Se corresponden con los objetos reales del mundo que nos rodea, o con objetos internos del sistema (del programa).</p>
+        </div>
+        <div class="col-md-4">
+            <h3 id="centrado">Metodo</h3>
+            <p>Algoritmo asociado a un objeto (o a una clase de objetos), cuya ejecución se desencadena tras la recepción de un "mensaje". Desde el punto de vista del comportamiento, es lo que el objeto puede hacer. Un método puede producir un cambio en las propiedades del objeto, o la generación de un "evento" con un nuevo mensaje para otro objeto del sistema.</p>
+        </div>
+        <div class="col-md-4">
+            <h3 id="centrado">Evento</h3>
+            <p>Es un suceso en el sistema (tal como una interacción del usuario con la máquina, o un mensaje enviado por un objeto). El sistema maneja el evento enviando el mensaje adecuado al objeto pertinente. También se puede definir como evento la reacción que puede desencadenar un objeto; es decir, la acción que genera.</p>
+        </div>
+        <div class="col-md-4">
+            <h3 id="centrado">Atributos</h3>
+            <p>Características que tiene la clase</p>
+
+        </div>
+        <div class="col-md-4">
+            <h3 id="centrado">Mensaje</h3>
+            <p>Una comunicación dirigida a un objeto, que le ordena que ejecute uno de sus métodos con ciertos parámetros asociados al evento que lo generó.</p>
+            
+        </div>
+        <div class="col-md-4">
+            <h3 id="centrado">Propiedad o atributo</h3>
+            <p>Contenedor de un tipo de datos asociados a un objeto (o a una clase de objetos), que hace los datos visibles desde fuera del objeto y esto se define como sus características predeterminadas, y cuyo valor puede ser alterado por la ejecución de algún método.</p>
+            
+        </div>
+        <div class="col-md-4">
+            <h3 id="centrado">Estado interno</h3>
+            <p>Es una variable que se declara privada, que puede ser únicamente accedida y alterada por un método del objeto, y que se utiliza para indicar distintas situaciones posibles para el objeto (o clase de objetos). No es visible al programador que maneja una instancia de la clase.</p>
+            
+        </div>
+        <div class="col-md-4">
+            <h3 id="centrado">Miembros de un objeto</h3>
+            <p>Atributos, identidad, relaciones y métodos.</p>
+            
+        </div>
+        <div class="col-md-4">
+            <h3 id="centrado">Identificación de un objeto</h3>
+            <p>Un objeto se representa por medio de una tabla o entidad que esté compuesta por sus atributos y funciones correspondientes.
+                En comparación con un lenguaje imperativo, una "variable" no es más que un contenedor interno del atributo del objeto o de un estado interno, así como la "función" es un procedimiento interno del método del objeto.</p>
+            
+        </div>
+    </div>
+    </div>
+
+</div>
+</body>
+</html> 
