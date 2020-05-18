@@ -26,3 +26,19 @@ p{
     text-align: center;
     margin-top: 100px;
 }
+
+#margen{
+    border-bottom: 1px solid;
+}
+
+a:link{
+
+    color: black
+}
+
+a:visited{
+    color: black
+}
+
+
+
