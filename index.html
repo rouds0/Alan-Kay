@@ -13,7 +13,7 @@
 <body>
     <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
      
-        <div class="container">
+       
             <a href="index.html" class="btn btn-secondary" role="button">Incio</a>
             <a href="Quien es Alan.html" class="btn btn-secondary" role="button">Quien es Alan Kay?</a>
             <a href="Inicios.html" class="btn btn-secondary" role="button">Inicios y Trabajo</a>
@@ -37,8 +37,8 @@
             <a href="Conceptos fundamentales.html" class="btn btn-secondary" role="button">Conceptos fundamentales</a>
             <a href="Carracteristicas.html" class="btn btn-secondary" role="button">Características</a>
             <a href="Material y consultas.html" class="btn btn-secondary" role="button">Material y consultas</a>
-           
-        </div>
+            
+       
         
     </nav>
 <div class="jumbotron text-center">
@@ -46,9 +46,35 @@
 
   </div>
 <div class="col-sm-4">
-    <div class="centrado">
-    <p><img src="imagenes/Alan Kay.jpg"  width="200" height="275" alt="" ></p>
+   
+  <img src="imagenes/Alan Kay.jpg"  width="200" height="275" alt="" >
+<br>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Decision
+  </button>
+
+   <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="modal-title">Por que decidi elegir este tema</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          Es porque me intereso que fuera como un pionero en la Programacion orientada a objetos
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
 </div>
+
+
 </div>
 </body>
 </html>
