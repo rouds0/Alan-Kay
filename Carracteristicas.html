@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Características</title>
+  <title>Index</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -10,62 +10,71 @@
   <script src="js/bootstrap.min.js"></script>
 </head>
 
-<body id="color">
-   <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
      
-    <div class="container">
-        <a href="index.html" class="btn btn-secondary" role="button">Incio</a>
-        <a href="Quien es Alan.html" class="btn btn-secondary" role="button">Quien es Alan Kay?</a>
-        <a href="Inicios.html" class="btn btn-secondary" role="button">Inicios y Trabajo</a>
-        <ul class="navbar-nav">
-        
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle btn btn-secondary " href="#" id="navbardrop" data-toggle="dropdown"  role="button">
-             2 links
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="Trabajos recientes.html">Trabajo recientes</a>
-              <a class="dropdown-item" href="Programacion orientada a objetos.html">Programacion orientada a objetos</a>
-            </div>
-          </li>
-        </ul>
-        <a href="Desarrollo de Squeak y Croquet.html" class="btn btn-secondary" role="button">Desarrollo </a>
-        <a href="Portátil de 100 dólares.html" class="btn btn-secondary" role="button">Portátil de 100 dólares</a>
-        <a href="Premios y reconocimientos.html" class="btn btn-secondary" role="button">Premios </a>
-        <a href="Musica.html" class="btn btn-secondary" role="button">Musica</a>
-        <a href="Origen.html" class="btn btn-secondary" role="button">Origen</a>
-        <a href="Conceptos fundamentales.html" class="btn btn-secondary" role="button">Conceptos fundamentales</a>
-        <a href="Carracteristicas.html" class="btn btn-secondary" role="button">Características</a>
-        <a href="Material y consultas.html" class="btn btn-secondary" role="button">Material y consultas</a>
        
+            <a href="index.html" class="btn btn-secondary" role="button">Incio</a>
+            <a href="Quien es Alan.html" class="btn btn-secondary" role="button">Quien es Alan Kay?</a>
+            <a href="Inicios.html" class="btn btn-secondary" role="button">Inicios y Trabajo</a>
+            <ul class="navbar-nav">
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle btn btn-secondary " href="#" id="navbardrop" data-toggle="dropdown"  role="button">
+                 2 links
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="Trabajos recientes.html">Trabajo recientes</a>
+                  <a class="dropdown-item" href="Programacion orientada a objetos.html">Programacion orientada a objetos</a>
+                </div>
+              </li>
+            </ul>
+            <a href="Desarrollo de Squeak y Croquet.html" class="btn btn-secondary" role="button">Desarrollo </a>
+            <a href="Portátil de 100 dólares.html" class="btn btn-secondary" role="button">Portátil de 100 dólares</a>
+            <a href="Premios y reconocimientos.html" class="btn btn-secondary" role="button">Premios </a>
+            <a href="Musica.html" class="btn btn-secondary" role="button">Musica</a>
+            <a href="Origen.html" class="btn btn-secondary" role="button">Origen</a>
+            <a href="Conceptos fundamentales.html" class="btn btn-secondary" role="button">Conceptos fundamentales</a>
+            <a href="Carracteristicas.html" class="btn btn-secondary" role="button">Características</a>
+            <a href="Material y consultas.html" class="btn btn-secondary" role="button">Material y consultas</a>
+            
+       
+        
+    </nav>
+<div class="jumbotron text-center">
+    <h1>Historia Alan Kay</h1>
+
+  </div>
+<div class="col-sm-4">
+   
+  <img src="imagenes/Alan Kay.jpg"  width="200" height="275" alt="" >
+<br>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Decision
+  </button>
+
+   <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="modal-title">Por que decidi elegir este tema</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          Es porque me intereso que fuera como un pionero en la Programacion orientada a objetos
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
     </div>
-    
-</nav>
-<h1 id="centrado">Características</h1>
-<div class="container">
-<h3>Abstracción</h3>
-<p>Denota las características esenciales de un objeto, donde se capturan sus comportamientos. Cada objeto en el sistema sirve como modelo de un "agente" abstracto que puede realizar trabajo, informar y cambiar su estado, y "comunicarse" con otros objetos en el sistema sin revelar "cómo" se implementan estas características. Los procesos, las funciones o los métodos pueden también ser abstraídos, y, cuando lo están, una variedad de técnicas son requeridas para ampliar una abstracción.</p>
-
-<br>
-<h3>Encapsulamiento</h3>
-<p>Significa reunir todos los elementos que pueden considerarse pertenecientes a una misma entidad, al mismo nivel de abstracción. Esto permite aumentar la cohesión (diseño estructurado) de los componentes del sistema. Algunos autores confunden este concepto con el principio de ocultación, principalmente porque se suelen emplear conjuntamente.</p>
-<br>
-<h3>Polimorfismo</h3>
-<p>Comportamientos diferentes, asociados a objetos distintos, pueden compartir el mismo nombre; al llamarlos por ese nombre se utilizará el comportamiento correspondiente al objeto que se esté usando. O, dicho de otro modo, las referencias y las colecciones de objetos pueden contener objetos de diferentes tipos, y la invocación de un comportamiento en una referencia producirá el comportamiento correcto para el tipo real del objeto referenciado. Cuando esto ocurre en "tiempo de ejecución", esta última característica se llama asignación tardía o asignación dinámica. Algunos lenguajes proporcionan medios más estáticos (en "tiempo de compilación") de polimorfismo, tales como las plantillas y la sobrecarga de operadores de C++.Comportamientos diferentes, asociados a objetos distintos, pueden compartir el mismo nombre; al llamarlos por ese nombre se utilizará el comportamiento correspondiente al objeto que se esté usando. O, dicho de otro modo, las referencias y las colecciones de objetos pueden contener objetos de diferentes tipos, y la invocación de un comportamiento en una referencia producirá el comportamiento correcto para el tipo real del objeto referenciado. Cuando esto ocurre en "tiempo de ejecución", esta última característica se llama asignación tardía o asignación dinámica. Algunos lenguajes proporcionan medios más estáticos (en "tiempo de compilación") de polimorfismo, tales como las plantillas y la sobrecarga de operadores de C++.</p>
-<br>
-<h3>Herencia</h3>
-<p>Las clases no se encuentran aisladas, sino que se relacionan entre sí, formando una jerarquía de clasificación. Los objetos heredan las propiedades y el comportamiento de todas las clases a las que pertenecen. La herencia organiza y facilita el polimorfismo y el encapsulamiento, permitiendo a los objetos ser definidos y creados como tipos especializados de objetos preexistentes.</p>
-<br>
-<h3>Modularidad</h3>
-<p>Se denomina "modularidad" a la propiedad que permite subdividir una aplicación en partes más pequeñas (llamadas módulos), cada una de las cuales debe ser tan independiente como sea posible de la aplicación en sí y de las restantes partes. Estos módulos se pueden compilar por separado, pero tienen conexiones con otros módulos. Al igual que la encapsulación, los lenguajes soportan la modularidad de diversas formas.</p>
-<br>
-<h3>Principio de ocultacion</h3>
-<p>Cada objeto está aislado del exterior, es un módulo natural, y cada tipo de objeto expone una "interfaz" a otros objetos que especifica cómo pueden interactuar con los objetos de la clase. El aislamiento protege a las propiedades de un objeto contra su modificación por quien no tenga derecho a acceder a ellas; solamente los propios métodos internos del objeto pueden acceder a su estado. Esto asegura que otros objetos no puedan cambiar el estado interno de un objeto de manera inesperada, eliminando efectos secundarios e interacciones inesperadas</p>
-<br>
-<h3>Recolección de basura</h3>
-<p>La recolección de basura (garbage collection) es la técnica por la cual el entorno de objetos se encarga de destruir automáticamente, y por tanto desvincular la memoria asociada, los objetos que hayan quedado sin ninguna referencia a ellos. Esto significa que el programador no debe preocuparse por la asignación o liberación de memoria, ya que el entorno la asignará al crear un nuevo objeto y la liberará cuando nadie lo esté usando. </p>
-
+  </div>
+  
 </div>
 
+
+</div>
 </body>
-</html> 
+</html>
